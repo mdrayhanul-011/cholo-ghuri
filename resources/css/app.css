@@ -1,0 +1,19 @@
+/* Bootstrap 5 CSS */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Cholo-Ghuri Custom CSS Base */
+:root {
+    --cg-primary: #198754;
+    --cg-primary-dark: #0f5132;
+    --cg-secondary: #0d6efd;
+    --cg-accent: #ffc107;
+    --cg-dark: #212529;
+    --cg-light: #f8f9fa;
+    --cg-font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-family: var(--cg-font-sans);
+    color: var(--cg-dark);
+    background-color: #fdfdfd;
+}
